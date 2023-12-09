@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="372.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetjava.controller.InscriptionController">
+<Label text="Username" />
+<TextField fx:id="usernameField" />
+<Label text="Password" />
+<PasswordField fx:id="passwordField" />
+<Label text="Confirm Password" />
+<PasswordField fx:id="confirmPasswordField" />
+<Label fx:id="errorLabel" style="-fx-text-fill: red;" />
+<Button fx:id="switchButton" defaultButton="true" text="Register" textOverrun="WORD_ELLIPSIS" />
+</VBox>

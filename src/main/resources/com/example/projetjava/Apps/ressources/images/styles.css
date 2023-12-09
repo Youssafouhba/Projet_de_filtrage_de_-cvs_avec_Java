@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.root {
+    -fx-background-color: #3498db;
+}
+
+Text {
+    -fx-fill: white;
+}
+
+TextField, PasswordField, Button {
+    -fx-background-color: #ecf0f1;
+    -fx-font-size: 14px;
+}
+
+Button:hover {
+    -fx-background-color: #2980b9;
+}
